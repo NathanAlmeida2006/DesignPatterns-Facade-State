@@ -1,0 +1,7 @@
+package facade.exemplo2;
+
+public class SubSistemaA {
+    public void acao() {
+        System.out.println("Ação do SubSistemaA");
+    }
+}
