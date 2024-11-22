@@ -1,6 +1,6 @@
 package com.senac.designpatterns.statefacade.model;
 
-import com.senac.designpatterns.statefacade.estados.EstadoNovo;
+import com.senac.designpatterns.statefacade.interfaces.estados.EstadoNovo;
 import com.senac.designpatterns.statefacade.interfaces.EstadoPedido;
 
 public class Pedido {

@@ -1,4 +1,4 @@
-package com.senac.designpatterns.statefacade.estados;
+package com.senac.designpatterns.statefacade.interfaces.estados;
 
 import com.senac.designpatterns.statefacade.model.Pedido;
 import com.senac.designpatterns.statefacade.interfaces.EstadoPedido;

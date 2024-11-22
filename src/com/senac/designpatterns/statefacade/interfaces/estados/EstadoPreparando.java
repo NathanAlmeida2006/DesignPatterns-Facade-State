@@ -1,16 +1,16 @@
-package com.senac.designpatterns.statefacade.estados;
+package com.senac.designpatterns.statefacade.interfaces.estados;
 
 import com.senac.designpatterns.statefacade.model.Pedido;
 import com.senac.designpatterns.statefacade.interfaces.EstadoPedido;
 
-public class EstadoEntregue implements EstadoPedido {
+public class EstadoPreparando implements EstadoPedido {
     @Override
     public void proximoEstado(Pedido pedido) {
-        // Estado final, não faz nada
+        pedido.setEstado(new EstadoPronto());
     }
 
     @Override
     public String getDescricaoStatus() {
-        return "Entregue";
+        return "Preparando";
     }
 }
