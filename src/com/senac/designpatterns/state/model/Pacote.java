@@ -1,7 +1,7 @@
-package state.model;
+package com.senac.designpatterns.state.model;
 
-import state.interfaces.EstadoPacote;
-import state.estados.EstadoPedido;
+import com.senac.designpatterns.state.interfaces.EstadoPacote;
+import com.senac.designpatterns.state.estados.EstadoPedido;
 
 public class Pacote {
     private EstadoPacote estado;

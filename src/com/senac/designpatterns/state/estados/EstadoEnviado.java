@@ -1,7 +1,7 @@
-package state.estados;
+package com.senac.designpatterns.state.estados;
 
-import state.interfaces.EstadoPacote;
-import state.model.Pacote;
+import com.senac.designpatterns.state.interfaces.EstadoPacote;
+import com.senac.designpatterns.state.model.Pacote;
 
 public class EstadoEnviado implements EstadoPacote {
     @Override

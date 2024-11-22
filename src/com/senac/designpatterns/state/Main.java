@@ -1,6 +1,6 @@
-package state;
+package com.senac.designpatterns.state;
 
-import state.model.Pacote;
+import com.senac.designpatterns.state.model.Pacote;
 
 public class Main {
     public static void main(String[] args) {

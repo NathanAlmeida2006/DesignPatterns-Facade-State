@@ -1,6 +1,6 @@
-package state.interfaces;
+package com.senac.designpatterns.state.interfaces;
 
-import state.model.Pacote;
+import com.senac.designpatterns.state.model.Pacote;
 
 public interface EstadoPacote {
     void proximo(Pacote pacote);

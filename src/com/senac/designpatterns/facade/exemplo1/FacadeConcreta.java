@@ -1,4 +1,4 @@
-package facade.exemplo1;
+package com.senac.designpatterns.facade.exemplo1;
 
 public class FacadeConcreta extends Facade {
     private final SubSistemaA subSistemaA;

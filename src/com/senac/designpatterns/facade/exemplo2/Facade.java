@@ -1,6 +1,6 @@
-package facade.exemplo2;
+package com.senac.designpatterns.facade.exemplo2;
 
-import facade.exemplo1.SubSistemaA;
+import com.senac.designpatterns.facade.exemplo1.SubSistemaA;
 
 public class Facade {
     private SubSistemaA subSistemaA;
